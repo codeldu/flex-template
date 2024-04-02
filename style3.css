@@ -1,0 +1,41 @@
+.container{
+    width: 70%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 24% 36% 12% 12% 24% 2%;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 'one two three four five six'
+                         'seven eight eight four five six'
+                                                
+;
+gap: 10px;
+}
+
+.container div {
+    background-color: red;
+}
+
+.item1{
+    grid-area: one;
+}
+.item2{
+    grid-area: two;
+}
+.item3{
+    grid-area: three;
+}
+.item4{
+    grid-area: four;
+}
+.item5{
+    grid-area: five;
+}
+.item6{
+    grid-area: six;
+}
+.item7{
+    grid-area: seven;
+}
+.item8{
+    grid-area: eight;
+}
